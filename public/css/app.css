@@ -68,3 +68,8 @@ nav{
     border: 2px solid rgb(109 72 229);
     color: black;
 }
+.logos{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
