@@ -158,3 +158,45 @@ nav{
     margin-top: 15px;
     color: rgba(58, 58, 71, 0.904)rgba(58, 58, 71, 0.904);
 }
+.sec4{
+    background-color: blue;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.sec4-div1{
+    color: white;
+    margin-top: 80px;
+}
+.sec4-tit1{
+    font-size: xx-large;
+}
+.sec4-pr1{
+    font-size: large;
+    margin-top: 15px;
+}
+.sec4-div2{
+    display: flex;
+    margin-top: 50px;
+    gap: 10vw;
+}
+.por{
+    font-size: 5vw;
+}
+.sec4-div4{
+    margin-top: 30px;
+
+}
+.sec4-div4 a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+.sec4-div4 a:hover{
+    color: white;
+    text-decoration: underline;
+}
