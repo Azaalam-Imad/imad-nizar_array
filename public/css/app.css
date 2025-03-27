@@ -164,7 +164,7 @@ nav{
 }
 .sec4{
     background-color: blue;
-    height: 450px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,6 +426,20 @@ nav{
         font-size: 15px;
         color: rgba(58, 58, 71, 0.904);
         text-align: center;
+    }
+    .sec4-div2{
+        flex-direction: column;
+    }
+    .sec4-tit1{
+        font-size: 6vw;
+        text-align: center;
+        width: 90vw;
+    }
+    .sec4-pr1{
+        width: 90vw;
+    }
+    .por{
+        font-size: 35px;
     }
     
 }
