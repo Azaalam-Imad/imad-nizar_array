@@ -303,3 +303,41 @@ nav{
     text-decoration:none ;
     color: gray;
 }
+.x-svg, .bars-svg, .CHECK{
+    display: none;
+}
+@media (max-width:425px){
+    .links1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 39px;
+        background-color: rgb(233, 231, 231);
+        left: 0px;
+        top: -100vh;
+        width: 100vw;
+        height: 60vh;
+        transition: 0.5s;
+        
+    }
+    .links1 a{
+        color: black;
+    }
+    .logo{
+        padding-left: 30px;
+    }
+    .x-svg{
+        display: block;
+        padding-left:80vw ;
+        padding-top: 30px;
+    }
+    .bars-svg{
+        display: block;
+        padding-top: 7px;
+        
+    }
+    #menu:checked + .links{
+        top: 0px;
+    }
+}
