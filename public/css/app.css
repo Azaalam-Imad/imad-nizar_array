@@ -24,6 +24,10 @@ nav{
     color: rgb(107, 105, 105);
     text-decoration: none;
 }
+.links a:hover{
+    color: rgb(109 72 229);
+    
+}
 .links button{
     background-color: rgb(109 72 229);
     color: white;
@@ -36,7 +40,7 @@ nav{
 .links button:hover{
     background-color: transparent;
     border: 2px solid rgb(109 72 229);
-    color: black;
+    color: rgb(109 72 229);
 }
 .sec1{
     display: flex;
@@ -66,7 +70,7 @@ nav{
 .register:hover{
     background-color: transparent;
     border: 2px solid rgb(109 72 229);
-    color: black;
+    color: rgb(109 72 229);
 }
 .logos{
     display: flex;
@@ -326,7 +330,8 @@ nav{
         
     }
     .links1 a{
-        color: black;
+        color: rgb(109 72 229);
+        font-weight: bold;
     }
     .logo{
         padding-left: 30px;
@@ -384,6 +389,7 @@ nav{
     }
     .sec3{
         overflow-x: hidden;
+        padding-bottom: 24vh;
     }
     .sec3-tit{
         font-size: x-large;
