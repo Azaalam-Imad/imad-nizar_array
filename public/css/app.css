@@ -364,7 +364,7 @@ nav{
     }
     .sec1 img{
         width: 90vw;
-        height: 50vh;
+        height: 40vh;
     }
     .sec1 h1, .childe1-sec1 h1{
         text-align: center;
@@ -387,7 +387,7 @@ nav{
     }
     .logos img{
         width: 35vw;
-        height: 25vh;
+        height: 17vh;
     }
     .childe2-sec1{
         flex-direction: column;
@@ -399,7 +399,7 @@ nav{
     }
     .sec3{
         overflow-x: hidden;
-        padding-bottom: 24vh;
+        padding-bottom: 10vh;
     }
     .sec3-tit{
         font-size: x-large;
