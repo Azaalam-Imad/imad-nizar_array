@@ -310,7 +310,7 @@ nav{
 .x-svg, .bars-svg, .CHECK{
     display: none;
 }
-@media (max-width:425px){
+@media (max-width:450px){
     .links1 {
         position: absolute;
         display: flex;
@@ -427,5 +427,24 @@ nav{
         color: rgba(58, 58, 71, 0.904);
         text-align: center;
     }
-    
+    .sec5{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+       
+    }
+    .sec5-div1{
+        width: 400px;
+        text-align: center;
+    }
+    .sec5-div11{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec5-iconn{
+        width: 30px;
+        height: 30px;
+    }
+   
 }
