@@ -477,5 +477,58 @@ nav{
     .por{
         font-size: 35px;
     }
-    
+    .sec6-pr1{
+        font-size: small;
+    }
+    .sec6-tit1{
+        font-size: medium;
+    }
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 360px;
+       
+    }
+    .sec6-div2{
+        position: relative;
+       left: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: fit-content;
+    }
+    .sec6-inp{
+        width: 300px;
+    }
+    .sec6-but1{
+        padding: 10px;
+    }
+    .sec6-pr2{
+        font-size: small;
+    }
+    .foot{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .foot-logo{
+        position: relative;
+        left: 0;
+        
+    }
+    .foot-links{
+        position: relative;
+        right: 0;
+        top: -50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-copi{
+        position: relative;
+        top: 120px;
+    }
 }
