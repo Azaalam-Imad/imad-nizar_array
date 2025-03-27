@@ -277,3 +277,29 @@ nav{
 .sec6-pr2{
     color: gray;
 }
+.foot{
+    display: flex;
+    justify-content: space-between;
+   background-color: rgba(231, 227, 227, 0.329);
+   height: 50px;
+}
+.foot-logo{
+    color: blue;
+    position: relative;
+    left: 120px;
+    font-size: x-large;
+}
+.copi{
+    color: gray;
+    font-size: large;
+}
+.foot-links{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 120px;
+}
+.foot-links a{
+    text-decoration:none ;
+    color: gray;
+}
