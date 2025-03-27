@@ -340,4 +340,33 @@ nav{
     #menu:checked + .links{
         top: 0px;
     }
+    .sec1{
+        width: 100vw;
+    }
+    .sec1 img{
+        width: 90vw;
+        height: 50vh;
+    }
+    .sec1 h1{
+        text-align: center;
+        font-size: x-large;
+    }
+    .sec1 p{
+        text-align: center;
+        font-size: 17px;
+        width: 70vw;
+    }
+    .register{
+        width: 35vw;
+        height: 8vh;
+        font-size: 13px;
+    }
+    .logos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logos img{
+        width: 35vw;
+        height: 30vh;
+    }
 }
