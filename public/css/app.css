@@ -234,3 +234,46 @@ nav{
     color: rgba(58, 58, 71, 0.904);
     margin-top: 15px;
 }
+.sec6{
+    background-color:rgba(231, 227, 227, 0.329) ;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sec6-div1{
+    margin-top: 80px;
+}
+.sec6-pr1{
+    color: gray;
+    font-size: larger;
+}
+.sec6-tit1{
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.sec6-div2{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+   gap: 20px;
+   margin-top: 25px;
+}
+.sec6-inp{
+    height: 50px;
+    padding-left: 40px;
+    border: 2px solid blue;
+    font-size: large;
+    
+}
+.sec6-but1{
+    height: 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: large;
+}
+.sec6-pr2{
+    color: gray;
+}
