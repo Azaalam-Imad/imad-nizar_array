@@ -126,6 +126,10 @@ nav{
     text-align: center;
     width: 600px;
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .sec3-tit{
     font-size: 2.5vw;
@@ -372,6 +376,56 @@ nav{
     }
     .childe2-sec1{
         flex-direction: column;
+    }
+    .sec-div1{
+        text-align: center;
+        margin-top: 80px;
+        width: unset;
+    }
+    .sec3{
+        overflow-x: hidden;
+    }
+    .sec3-tit{
+        font-size: x-large;
+        text-align: center;
+        color: rgb(58 58 71);
+        width: 90vw;
+
+    }
+    .sec3-pr{
+        margin-top: 10px;
+        font-size: large;
+        color: rgba(58, 58, 71, 0.904);
+        text-align: center;
+        width: 70vw;
+    }
+    .sec3-div2{
+    display: flex;
+    align-items: center;
+        gap: 10px;
+    /* width: 840px; */
+    
+    }
+    .div21{
+        flex-direction: column-reverse;
+    }
+    .div22{
+        flex-direction: column;
+    }
+    .img-sec3{
+        width: 90vw;
+    }
+    .div11 h1 {
+        font-size: 23px;
+        text-align: center;
+        color: rgb(58 58 71);
+        
+    }
+    .div11 p{
+        margin-top: 10px;
+        font-size: 15px;
+        color: rgba(58, 58, 71, 0.904);
+        text-align: center;
     }
     
 }
